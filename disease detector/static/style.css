@@ -1,0 +1,91 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('pip.jpg'); /* Background image for the whole app */
+    background-size: cover; /* Cover entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f8ff; /* fallback color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+
+/* Central container for pages */
+.container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #003366; /* Dark blue text */
+}
+
+/* Inputs (username, password, symptoms) */
+input[type="text"], input[type="password"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Checkbox group if any */
+.checkbox-group {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Buttons and links styled like buttons */
+button, .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for buttons */
+button:hover, .btn:hover {
+    background-color: #45a049;
+}
+
+/* Title headings */
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Special formatting for disease prediction result */
+strong {
+    color: #FF5722; /* Orange color for the result */
+}
+
+/* Link back to symptoms */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

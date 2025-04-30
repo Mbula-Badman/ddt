@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disease Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Disease Detector</h1>
+        <form method="POST">
+            <p>Select the symptoms you are experiencing:</p>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="symptoms" value="fever"> Fever</label>
+                <label><input type="checkbox" name="symptoms" value="weight loss"> Weight Loss</label>
+                <label><input type="checkbox" name="symptoms" value="fatigue"> Fatigue</label>
+                <label><input type="checkbox" name="symptoms" value="night sweats"> Night Sweats</label>
+                <label><input type="checkbox" name="symptoms" value="headaches"> Headaches</label>
+                <label><input type="checkbox" name="symptoms" value="dizziness"> Dizziness</label>
+                <label><input type="checkbox" name="symptoms" value="nosebleeds"> Nosebleeds</label>
+                <label><input type="checkbox" name="symptoms" value="abdominal pain"> Abdominal Pain</label>
+                <label><input type="checkbox" name="symptoms" value="bloating"> Bloating</label>
+                <label><input type="checkbox" name="symptoms" value="nausea"> Nausea</label>
+                <label><input type="checkbox" name="symptoms" value="heartburn"> Heartburn</label>
+                <label><input type="checkbox" name="symptoms" value="persistent cough"> Persistent Cough</label>
+                <label><input type="checkbox" name="symptoms" value="chest pain"> Chest Pain</label>
+                <label><input type="checkbox" name="symptoms" value="coughing blood"> Coughing Blood</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
